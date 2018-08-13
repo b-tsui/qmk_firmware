@@ -1,0 +1,33 @@
+#include "peej.c"
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+
+[_BASE] = LAYOUT_PEEJ(
+    BASE_ROW_2,
+    BASE_ROW_3,
+    BASE_ROW_4,
+    BASE_ROW_5
+),
+
+[_SYMBOL] = LAYOUT_PEEJ(
+    SYMBOL_ROW_2,
+    SYMBOL_ROW_3,
+    SYMBOL_ROW_4,
+    SYMBOL_ROW_5
+),
+
+[_FUNCTION] = LAYOUT_PEEJ(
+    FUNCTION_ROW_2,
+    FUNCTION_ROW_3,
+    FUNCTION_ROW_4,
+    FUNCTION_ROW_5
+),
+
+[_ADJUST] = LAYOUT_PEEJ(
+    ADJUST_ROW_2,
+    ADJUST_ROW_3,
+    ADJUST_ROW_4,
+    ADJUST_ROW_5
+)
+
+};
